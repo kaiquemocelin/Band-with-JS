@@ -382,3 +382,77 @@ footer i{
     top: 40vh;
     right: 20vh;
 }
+
+.model{
+    background-color: #0E273C;
+    border-radius: 10px;
+    border-color: #FFC20F;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.btn-fechar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 55vw;
+    top: 40vh;
+    right: 20vh;
+
+}
+
+.cadastro{
+    background-color: #0E273C;
+    border-radius: 10px;
+    border-color: #FFC20F;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+    width: 400px;
+    height: 490px;
+    padding: 45px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 12px;
+}
+
+.fechar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #e5b900;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.btn-verde{
+    background-color: #008C45;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+

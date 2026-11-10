@@ -5,29 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cadastro</title>
   <script src="https://kit.fontawesome.com/b5b8108e4e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div>
-    <i class="fa-solid fa-xmark"></i>
+  <div class="cadastro">
+    <button class="fechar">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
     <h1>Crie sua conta</h1>
     <p>Cadastre-se para acompanhar a programação da Band.</p>
-  
+    
     <form action="">
-      <label for="name">Nome</label>
-      <input type="name" id="name" name="name"><br>
+      <div class="campo"> 
+        <label for="name">Nome</label>
+        <input type="name" id="name" name="name"><br>
+      </div>
 
-      <label for="email">E-mail</label>
-      <input type="email" id="email" name="email"><br>
+      <div class="campo">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email"><br>
+      </div>
+       
+      <div class="campo">
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password"><br>
+      </div>
 
-      <label for="password">Senha</label>
-      <input type="password" id="password" name="password"><br>
-
-      <label for="password">Confirme sua senha</label>
-      <input type="password" id="password" name="password">
-
+      <div class="campo">
+        <label for="password">Confirme sua senha</label>
+        <input type="password" id="password" name="password">
+      </div>
 
     </form>
+    <button class="btn-verde">CADASTRAR</button>
   </div>
   
 </body>
